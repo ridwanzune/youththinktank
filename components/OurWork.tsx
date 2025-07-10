@@ -9,7 +9,7 @@ const publications: Publication[] = [
         title: "Why Youth Leadership Is Crucial for Bangladesh’s Future",
         category: "Leadership & Future",
         description: "With over half the population under 30, empowering youth is essential. Young leaders bring fresh perspectives and bold ideas to address national challenges.",
-        imageUrl: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=800&auto=format&fit=crop",
+        imageUrl: "https://res.cloudinary.com/dy80ftu9k/image/upload/v1752143545/our_work_1_jxgvqj.webp",
         content: `
             <h2>The Demographic Dividend: An Unparalleled Opportunity</h2>
             <p>Bangladesh stands at a unique demographic crossroads. With over half of its population under the age of 30, the nation possesses a 'demographic dividend'—a window of opportunity where the workforce is young and vibrant. This isn't just a statistic; it's our single greatest asset. However, potential alone does not guarantee progress. To truly capitalize on this dividend, we must actively invest in and empower our youth, transforming their potential energy into kinetic force for national development. Youth leadership is the mechanism through which this transformation occurs.</p>
@@ -31,7 +31,7 @@ const publications: Publication[] = [
         title: "From Campus to Cabinet: Building Policy-Minded Youth",
         category: "Policy & Governance",
         description: "We guide young talent to engage with governance, turning campus activism into formal policy expertise, nurturing the next generation of ministers and mayors.",
-        imageUrl: "https://images.unsplash.com/photo-1542744095-291d1f67b221?q=80&w=800&auto=format&fit=crop",
+        imageUrl: "https://res.cloudinary.com/dy80ftu9k/image/upload/v1752143542/our_work_2_o0w0rv.webp",
         content: `
             <h2>The Bridge Between Passion and Policy</h2>
             <p>University campuses across Bangladesh are vibrant cauldrons of activism, social awareness, and passionate debate. While this energy is vital for a healthy democracy, it often dissipates after graduation or remains disconnected from the formal machinery of governance. The journey from a passionate student activist to an effective policy-maker is a long and complex one. Our mission is to build the bridge that connects these two worlds, transforming raw passion into structured, evidence-based policy influence.</p>
@@ -52,7 +52,7 @@ const publications: Publication[] = [
         title: "Digital Tools, Real Impact: Youth Advocacy in the Age of Connectivity",
         category: "Digital Advocacy",
         description: "Bangladeshi youth are using tech to drive national conversations. We aim to equip them with the skills to amplify their impact responsibly.",
-        imageUrl: "https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?q=80&w=800&auto=format&fit=crop",
+        imageUrl: "https://res.cloudinary.com/dy80ftu9k/image/upload/v1752143542/our_work_3_wgun4d.webp",
         content: `
             <h2>The New Town Square: Digital Platforms as Levers of Change</h2>
             <p>In the 21st century, the public square is no longer just a physical space; it is a vast, interconnected digital ecosystem. Social media platforms, messaging apps, and online forums have become powerful tools for organization, advocacy, and leadership. Bangladeshi youth, as digital natives, are uniquely positioned to leverage these tools. From mobilizing flash protests for social justice to running nationwide awareness campaigns on climate change, they are already using connectivity to shape the national discourse. Our goal is to help them sharpen these tools for maximum, responsible impact.</p>
@@ -73,7 +73,7 @@ const publications: Publication[] = [
         title: "The Rural Youth Gap: Why Leadership Must Go Beyond Dhaka",
         category: "Rural Empowerment",
         description: "Real progress depends on uplifting young leaders from every district. We support decentralized leadership and recognize grassroots efforts nationwide.",
-        imageUrl: "https://images.unsplash.com/photo-1605333140510-1f34a7534346?q=80&w=800&auto=format&fit=crop",
+        imageUrl: "https://res.cloudinary.com/dy80ftu9k/image/upload/v1752143544/our_work_4_mfayxi.webp",
         content: `
             <h2>Unlocking the Potential of the 64 Districts</h2>
             <p>For too long, the narrative of youth leadership in Bangladesh has been overwhelmingly Dhaka-centric. While the capital is a vital hub, true national development cannot be achieved if the immense talent pool in our rural areas remains untapped. Real progress hinges on empowering the young leader in a remote char, the female entrepreneur in a northern district, and the tech innovator in a coastal town. Closing the rural-urban youth leadership gap is not just a matter of equity; it is essential for holistic, sustainable national growth.</p>
@@ -95,7 +95,7 @@ const publications: Publication[] = [
         title: "Mentorship Matters: The Missing Link in Youth Empowerment",
         category: "Mentorship",
         description: "Ambition needs guidance. Our mentorship programs connect experienced professionals with youth to share insights, open networks, and co-create solutions.",
-        imageUrl: "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?q=80&w=800&auto=format&fit=crop",
+        imageUrl: "https://res.cloudinary.com/dy80ftu9k/image/upload/v1752143542/our_work_5_zztest.webp",
         content: `
             <h2>The Accelerator for Ambition</h2>
             <p>Ambition is the fuel of progress, but without guidance, it can easily lead to burnout, disillusionment, or misdirected effort. A great idea is not enough; it needs the wisdom of experience to navigate obstacles and find the right path. This is where mentorship becomes the critical missing link in the chain of youth empowerment. A good mentor is an accelerator, a guide, and a safety net, dramatically increasing a young leader's chances of success.</p>
@@ -116,7 +116,7 @@ const publications: Publication[] = [
         title: "Sovereignty Starts With Us: Reclaiming National Narrative",
         category: "National Sovereignty",
         description: "When youth own our challenges and innovations, they protect our future. We foster a self-reliant generation that puts the nation first.",
-        imageUrl: "https://images.unsplash.com/photo-1599543032742-3788a4056247?q=80&w=800&auto=format&fit=crop",
+        imageUrl: "https://res.cloudinary.com/dy80ftu9k/image/upload/v1752143544/our_work_6_gm97u7.webp",
         content: `
             <h2>Redefining Sovereignty for the 21st Century</h2>
             <p>In today's interconnected world, sovereignty is no longer just about political borders and military strength. It is a multifaceted concept that encompasses economic self-reliance, technological independence, and cultural integrity. True sovereignty means having the capacity to define our own future, solve our own problems, and tell our own story to the world. This is not a task for the government alone; it is a generational responsibility that falls squarely on the shoulders of our youth.</p>
@@ -135,7 +135,7 @@ const publications: Publication[] = [
 
 const PublicationCard: React.FC<{ pub: Publication; onNavigate: (pub: Publication) => void }> = ({ pub, onNavigate }) => (
     <div className="glass-card rounded-xl overflow-hidden shadow-lg hover:shadow-sky-500/20 transition-all duration-300 transform hover:-translate-y-2 group">
-        <img className="w-full h-48 object-cover" src={pub.imageUrl} alt={pub.title} />
+        <img className="w-full h-48 object-cover" src={pub.imageUrl} alt={pub.title} loading="lazy" decoding="async" />
         <div className="p-6">
             <span className="inline-block bg-emerald-500/20 text-emerald-400 rounded-full px-3 py-1 text-sm font-semibold mb-2">{pub.category}</span>
             <h3 className="font-bold text-xl mb-2 text-white">{pub.title}</h3>

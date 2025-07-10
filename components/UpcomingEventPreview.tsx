@@ -18,10 +18,10 @@ const UpcomingEventPreview: React.FC<UpcomingEventPreviewProps> = ({ onNavigate 
                 </div>
                 <div className="glass-card rounded-xl shadow-lg hover:shadow-sky-500/20 transition-all duration-300 overflow-hidden md:flex md:items-center group">
                     <div className="md:w-1/2 overflow-hidden">
-                        <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140404/July_remembereance_imae_1_mkez0p.webp" alt="Festival of Remembrance" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+                        <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140404/July_remembereance_imae_1_mkez0p.webp" alt="Festival of Remembrance" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async"/>
                     </div>
                     <div className="p-8 md:p-12 md:w-1/2">
-                        <p className="text-sm font-bold text-emerald-400 tracking-widest">JULY 24-26, 2025</p>
+                        <p className="text-sm font-bold text-emerald-400 tracking-widest">JULY 31, 2025</p>
                          <h3 className="text-2xl md:text-3xl font-bold text-white mt-2 mb-4">A Festival of Remembrance of the July Revolution</h3>
                          <p className="text-slate-400 mb-6">
                             Join our landmark launch event to commemorate the historic July Revolution, built on the pillars of National Integration, Intellectual Leadership, and Sustained Impact.

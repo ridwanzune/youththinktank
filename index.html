@@ -4,16 +4,40 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Youth Think Tank Forum | Bangladesh</title>
+    <title>Youth Think Tank Forum Bangladesh | Led by Zubair Kabir</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A vibrant digital platform for the Youth Think Tank Forum in Bangladesh, led by Zubair Kabir. We focus on youth leadership, policy research, and shaping a sovereign, prosperous future for the nation.">
+    <meta name="keywords" content="Youth Think Tank Forum, Zubair Kabir, FSDS, Bangladesh, youth leadership, policy research, national sovereignty, youth empowerment, strategic studies">
+    <link rel="canonical" href="/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Youth Think Tank Forum Bangladesh | Led by Zubair Kabir">
+    <meta property="og:description" content="A vibrant digital platform for the Youth Think Tank Forum in Bangladesh, led by Zubair Kabir. We focus on youth leadership, policy research, and shaping a sovereign, prosperous future for the nation.">
+    <meta property="og:image" content="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752141222/image_24_gkqoka.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="/">
+    <meta property="twitter:title" content="Youth Think Tank Forum Bangladesh | Led by Zubair Kabir">
+    <meta property="twitter:description" content="A vibrant digital platform for the Youth Think Tank Forum in Bangladesh, led by Zubair Kabir. We focus on youth leadership, policy research, and shaping a sovereign, prosperous future for the nation.">
+    <meta property="twitter:image" content="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752141222/image_24_gkqoka.webp">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             font-family: 'Inter', sans-serif;
             background-color: #0a101f;
             color: #e2e8f0;
+            overflow-x: hidden;
         }
         .gradient-text {
             background: linear-gradient(90deg, #10b981, #38bdf8);
@@ -53,6 +77,27 @@
         .prose li {
             margin-bottom: 0.5em;
         }
+
+        /* Interactive Scroller Styles */
+        .scroller {
+            -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+            mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+            overflow: hidden;
+            cursor: grab;
+            user-select: none;
+        }
+        .scroller.dragging {
+            cursor: grabbing;
+        }
+        .scroller-inner {
+            display: flex;
+            flex-wrap: nowrap;
+            width: max-content;
+        }
+        .scroller-inner li {
+            list-style: none; /* remove bullet points */
+        }
+
     </style>
 <script type="importmap">
 {
@@ -61,7 +106,6 @@
     "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
     "react/": "https://esm.sh/react@^19.1.0/",
     "@google/genai": "https://esm.sh/@google/genai@^1.9.0",
-    "path": "https://esm.sh/path@^0.12.7",
     "vite": "https://esm.sh/vite@^7.0.3",
     "url": "https://esm.sh/url@^0.11.4"
   }

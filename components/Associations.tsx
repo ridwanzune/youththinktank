@@ -24,7 +24,7 @@ const Associations: React.FC = () => {
                 <div className="flex flex-wrap justify-center items-center gap-x-16 gap-y-10">
                     {associations.map((assoc) => (
                         <div key={assoc.name} className="flex justify-center items-center h-16 transition-transform duration-300 ease-in-out hover:scale-125" title={assoc.name}>
-                            <img src={assoc.logo} alt={assoc.name} className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 brightness-150 hover:brightness-100 transition-all duration-300" />
+                            <img src={assoc.logo} alt={assoc.name} className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 brightness-150 hover:brightness-100 transition-all duration-300" loading="lazy" decoding="async" />
                         </div>
                     ))}
                 </div>

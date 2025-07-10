@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import type { Event } from '../types';
 import type { Page } from '../App';
@@ -10,7 +11,7 @@ interface EventsProps {
 const allEvents: Event[] = [
     {
         id: 'july-revolution-festival',
-        date: "JULY 24-26, 2025",
+        date: "JULY 31, 2025",
         title: "Event: A Festival of Remembrance of the July Revolution",
         description: "A three-day landmark launch festival to commemorate the historic July Revolution, built on three core pillars: National Integration, Intellectual Leadership, and Sustained Impact.",
         link: "#",

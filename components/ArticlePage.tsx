@@ -19,7 +19,7 @@ const ArticlePage: React.FC<ArticlePageProps> = ({ article, onNavigate }) => {
                     </h1>
                 </div>
 
-                <img src={article.imageUrl} alt={article.title} className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96 mb-12" />
+                <img src={article.imageUrl} alt={article.title} className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96 mb-12" loading="lazy" decoding="async" />
                 
                 <div className="glass-card p-8 md:p-10 rounded-xl">
                     <div className="prose max-w-none text-slate-300" dangerouslySetInnerHTML={{ __html: article.content }}>

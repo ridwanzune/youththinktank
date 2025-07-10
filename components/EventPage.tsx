@@ -31,7 +31,7 @@ const EventPage: React.FC<EventPageProps> = ({ onNavigate }) => {
                         A Festival of Remembrance of the July Revolution
                     </h1>
                      <p className="mt-4 text-lg text-slate-400">
-                        July 24th - 26th, 2025 | Justice Shahabuddin Ahmed Park, Gulshan
+                        July 31st, 2025 | Justice Shahabuddin Ahmed Park, Gulshan
                     </p>
                 </div>
                 
@@ -44,7 +44,7 @@ const EventPage: React.FC<EventPageProps> = ({ onNavigate }) => {
                         </p>
                     </div>
 
-                    <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140404/July_remembereance_imae_1_mkez0p.webp" alt="Art gallery exhibit" className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96" />
+                    <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140404/July_remembereance_imae_1_mkez0p.webp" alt="Artistic representation of the July Revolution spirit" className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96" loading="lazy" decoding="async" />
 
                     {/* Exhibits & Galleries */}
                     <section>
@@ -64,7 +64,7 @@ const EventPage: React.FC<EventPageProps> = ({ onNavigate }) => {
                         </div>
                     </section>
                     
-                    <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140407/Woman_Empowerment_uz38b9.png" alt="Women's empowerment art" className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96" />
+                    <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140407/Woman_Empowerment_uz38b9.png" alt="Art installation dedicated to women's empowerment" className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96" loading="lazy" decoding="async" />
 
                     {/* July Konna */}
                      <section>
@@ -80,7 +80,7 @@ const EventPage: React.FC<EventPageProps> = ({ onNavigate }) => {
                      {/* Community Stalls */}
                     <section>
                         <SectionTitle>Community Stalls</SectionTitle>
-                         <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140404/July_remembereance_image_2_gk2yps.webp" alt="Community stalls" className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96 mb-8" />
+                         <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140404/July_remembereance_image_2_gk2yps.webp" alt="Community stalls and bazaar at the festival" className="rounded-lg shadow-xl w-full object-cover h-64 md:h-96 mb-8" loading="lazy" decoding="async" />
                         <div className="space-y-6">
                            <ListItem title="Independent Bookstore Collective">A "book street" showcasing literature on Bangladesh's history, politics, and social movements.</ListItem>
                            <ListItem title="Food Stall: The Community Cafe">A central hub for refreshments and conversation, with complimentary tea and food from local vendors.</ListItem>

@@ -28,7 +28,7 @@ const About: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
                     <div className="relative group cursor-pointer">
                          <div className="absolute -inset-2 bg-gradient-to-r from-emerald-500 to-sky-500 rounded-lg blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
-                         <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140405/mission_vision_fvwemf.jpg" alt="Youth collaboration" className="rounded-lg shadow-2xl relative transition-transform duration-300 group-hover:scale-105" />
+                         <img src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1752140405/mission_vision_fvwemf.jpg" alt="Youth Think Tank Forum members in a collaborative session" className="rounded-lg shadow-2xl relative transition-transform duration-300 group-hover:scale-105" loading="lazy" decoding="async" />
                     </div>
                     <div className="space-y-8">
                        <FeatureCard icon={<LightbulbIcon className="w-8 h-8 mr-3 text-emerald-400"/>} title="Our Mission">
