@@ -65,7 +65,7 @@ const Team: React.FC = () => {
     const scrollLeft = useRef(0);
     const velocity = useRef(0.5); // Speed of auto-scroll
 
-    const animate = useCallback(() => {
+    const animate = useCallback((_time: number) => {
         if (!scrollerRef.current || !scrollerInnerRef.current) return;
 
         if (!isDragging.current) {
