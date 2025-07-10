@@ -1,3 +1,4 @@
+
 import React, { useRef, useEffect, useCallback } from 'react';
 import type { TeamMember } from '../types';
 import { UsersIcon } from './IconComponents';
@@ -59,7 +60,7 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => (
 const Team: React.FC = () => {
     const scrollerRef = useRef<HTMLDivElement>(null);
     const scrollerInnerRef = useRef<HTMLUListElement>(null);
-    const animationFrameId = useRef<number>();
+    const animationFrameId = useRef<number | null>(null);
     const isDragging = useRef(false);
     const startX = useRef(0);
     const scrollLeft = useRef(0);
